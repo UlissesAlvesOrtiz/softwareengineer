@@ -4,7 +4,11 @@
   "description": "Projeto formação Software Enginner",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "vercel-build": "next build"
   },
   "author": "",
   "license": "MIT",
