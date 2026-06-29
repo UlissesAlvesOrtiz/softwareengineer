@@ -24,10 +24,9 @@ function Home(){
       }}>
         <video 
           src="/familia.mp4" // Coloque o vídeo na pasta /public com este nome
-          autoPlay            // Inicia o vídeo sozinho assim que a página carrega
-          loop                // Faz o vídeo recomeçar quando chegar ao fim (contínuo)
-          muted               // OBRIGATÓRIO: O navegador só deixa o autoPlay funcionar se o vídeo começar sem som
-          playsInline         // Importante para funcionar o autoPlay direto no Safari/iPhone
+          controls            // ADICIONADO: Mostra os botões de Play, Pause e Barra de Volume
+          loop                // Mantém o vídeo contínuo
+          playsInline
           style={{
             maxWidth: '100%',
             maxHeight: '100%',
